@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Романова Ирина](https://up.htmlacademy.ru/htmlcss/24/user/955489).
-* Наставник: [Макс Кравченко] (https://htmlacademy.ru/profile/id544023).
+* Наставник: [Макс Кравченко](https://htmlacademy.ru/profile/id544023).
 
 ---
 
