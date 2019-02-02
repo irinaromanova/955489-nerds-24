@@ -36,51 +36,49 @@
   <section class="filters">
    <h2 class="visually-hidden">Фильтр товаров</h2>
    <form class="filter" method="get" action="https://echo.htmlacademy.ru">
-    <fieldset>
+    <fieldset class="filter-options">
 	 <legend>Сетка:</legend>
-	 <ul>
+	 <ul class="filter-options-list">
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-adaptive">Адаптивная</label>
 	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
-	   <label for="filter-adaptive">Адаптивная</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-static">Фиксированная</label>
 	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="static" id="filter-static">
-	   <label for="filter-static">Фиксированная</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-liquid">Резиновая</label>
 	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="liquid" id="filter-liquid">
-	   <label for="filter-liquid">Резиновая</label>
 	  </li>
 	 </ul>
     </fieldset>
-    <fieldset>
+    <fieldset class="filter-options">
 	 <legend>Особенности:</legend>
-	 <ul>
+	 <ul class="filter-options-list">
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-slider">Слайдер</label>
 	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
-	   <label for="filter-slider">Слайдер</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-advantages">Блок преимуществ</label>
 	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
-	   <label for="filter-advantages">Блок преимуществ</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-news">Новости</label>
 	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
-	   <label for="filter-news">Новости</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-gallery">Галерея</label>
 	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="filter-gallery">
-	   <label for="filter-gallery">Галерея</label>
 	  </li>
 	  <li class="filter-option">
+	   <label class="filter-input-label" for="filter-basket">Корзина</label>
 	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
-	   <label for="filter-basket">Корзина</label>
 	  </li>
 	 </ul>
     </fieldset>
-	<button type="submit" class="filter-button button">
-	 Показать
-	</button>
+    <button type="submit" class="filter-button button">Показать</button>
    </form>	
   </section>
   <section class="sort">
@@ -179,25 +177,25 @@
   </div>
   <b>Давайте дружить, это выгодно!</b>
   <p>Скидка 10% для друзей из социальных сетей</p> 
-  <section class="wright-us">
+  <aside class="wright-us">
    <h2>Напишите нам</h2>
    <form class="wright-us-form" action="https://echo.htmlacademy.ru" method="post">
     <p class="wright-us-item">
-     <label for="wright-us-name">Ваше имя:</label>
-     <input id="wright-us-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+     <label class="write-us-label" for="wright-us-name">Ваше имя:</label>
+     <input id="wright-us-name" type="text" name="name" placeholder="Имя Фамилия">
     </p>
     <p class="wright-us-item">
-     <label for="wright-us-mail">Ваш e-mail:</label>
-     <input id="wright-us-mail" type="text" name="mail" value="" placeholder="email@example.com">
+     <label class="write-us-label" for="wright-us-email">Ваш e-mail:</label>
+     <input id="wright-us-email" type="email" name="email" placeholder="email@example.com">
     </p>
     <p class="wright-us-item">
-     <label for="wright-us-letter-text">Текст письма:</label>
-     <input id="wright-us-letter-text" type="text" name="letter-text" value="" placeholder="В свободной форме">
+     <label class="write-us-label" for="wright-us-letter-text">Текст письма:</label>
+     <textarea id="wright-us-letter-text" name="letter-text" placeholder="В свободной форме"></textarea>
     </p>
+	<button class="button" type="submit">Отправить</button>
+    <button class="modal-close" type="button">Закрыть</button>
    </form>	
-   <button class="button" type="submit">Отправить</button>
-   <button class="modal-close" type="button">Закрыть</button>
-  </section>
+  </aside>
  </footer
  
  </body>
