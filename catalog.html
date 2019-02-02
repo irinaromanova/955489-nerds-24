@@ -35,10 +35,56 @@
  <main class="container">
   <section class="filters">
    <h2 class="visually-hidden">Фильтр товаров</h2>
-   <!--Форма-->
+   <form class="filter" method="get" action="https://echo.htmlacademy.ru">
+    <fieldset>
+	 <legend>Сетка:</legend>
+	 <ul>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="adaptive" id="filter-adaptive" checked>
+	   <label for="filter-adaptive">Адаптивная</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="static" id="filter-static">
+	   <label for="filter-static">Фиксированная</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-radio" type="radio" name="grid" value="liquid" id="filter-liquid">
+	   <label for="filter-liquid">Резиновая</label>
+	  </li>
+	 </ul>
+    </fieldset>
+    <fieldset>
+	 <legend>Особенности:</legend>
+	 <ul>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="slider" id="filter-slider" checked>
+	   <label for="filter-slider">Слайдер</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="advantages" id="filter-advantages">
+	   <label for="filter-advantages">Блок преимуществ</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="news" id="filter-news" checked>
+	   <label for="filter-news">Новости</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="galery" id="filter-gallery">
+	   <label for="filter-gallery">Галерея</label>
+	  </li>
+	  <li class="filter-option">
+	   <input class="visually-hidden filter-input filter-input-checkbox" type="checkbox" name="basket" id="filter-basket">
+	   <label for="filter-basket">Корзина</label>
+	  </li>
+	 </ul>
+    </fieldset>
+	<button type="submit" class="filter-button button">
+	 Показать
+	</button>
+   </form>	
   </section>
   <section class="sort">
-   <h2 class="visually-hidden">Сортировать: </h2>
+   <h2>Сортировать: </h2>
    <!--Сортировка-->
   </section> 
   <section class="catalog">
@@ -49,9 +95,7 @@
       <h3 class="item-title">Sedona</h3>
 	 </a> 
      <p class="item-description">Информационный сайт для туристов</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
-     </a>
+     <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
      <a class="button-item-price" href="#">9900 руб.</a>       
     </li>
     <li class="catalog-item">
@@ -59,9 +103,7 @@
       <h3 class="item-title">Pink App</h3>
 	 </a>
      <p class="item-description">Продуктовый лендинг приложения для iOS и Android</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
-     </a>
+     <img src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
      <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
@@ -69,9 +111,7 @@
       <h3 class="item-title">Barbershop</h3>
 	 </a>
      <p class="item-description">Сайт салона красоты. Для мужчин, да.</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-barbershop.jpg" width="360" height="576"alt="Barbershop">
-     </a>
+     <img src="img/img-barbershop.jpg" width="360" height="576"alt="Barbershop">
      <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
@@ -79,9 +119,7 @@
       <h3 class="item-title">Mishka</h3>
 	 </a>
      <p class="item-description">Интернет-магазин вязанных игрушек</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
-     </a>
+     <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
      <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
@@ -89,9 +127,7 @@
       <h3 class="item-title">A Plus</h3>
 	 </a>
      <p class="item-description">Лендинг курсов повышения квалификации</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
-     </a>
+     <img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
      <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
@@ -99,9 +135,7 @@
       <h3 class="item-title">Кваст</h3>
 	 </a>
      <p class="item-description">Промо-сайт производителя крафтового кваса</p>
-     <a class="catalog-item-link" href="catalog-item/html">
-      <img src="img/img-kvast.jpg" width="360" height="576"alt="Кваст">
-     </a>
+     <img src="img/img-kvast.jpg" width="360" height="576"alt="Кваст">
      <a class="button-item-price" href="#">9900 руб.</a>
     </li>   
    </ul>   
@@ -128,7 +162,7 @@
    191186, Санкт-Петербург,
    ул. Б. Конюшенная, д. 19/88
    <a class="phone-number-link" href="#">тел. +7 (812) 275-75-75</a>
-   <a class="button" href="whight-us.html">Напишите нам</a>
+   <a class="button" href="wright-us.html">Напишите нам</a>
   </p>
   <div class="footer-social">
    <ul class="social-buttons">
@@ -145,6 +179,25 @@
   </div>
   <b>Давайте дружить, это выгодно!</b>
   <p>Скидка 10% для друзей из социальных сетей</p> 
+  <section class="wright-us">
+   <h2>Напишите нам</h2>
+   <form class="wright-us-form" action="https://echo.htmlacademy.ru" method="post">
+    <p class="wright-us-item">
+     <label for="wright-us-name">Ваше имя:</label>
+     <input id="wright-us-name" type="text" name="name" value="" placeholder="Имя Фамилия">
+    </p>
+    <p class="wright-us-item">
+     <label for="wright-us-mail">Ваш e-mail:</label>
+     <input id="wright-us-mail" type="text" name="mail" value="" placeholder="email@example.com">
+    </p>
+    <p class="wright-us-item">
+     <label for="wright-us-letter-text">Текст письма:</label>
+     <input id="wright-us-letter-text" type="text" name="letter-text" value="" placeholder="В свободной форме">
+    </p>
+   </form>	
+   <button class="button" type="submit">Отправить</button>
+   <button class="modal-close" type="button">Закрыть</button>
+  </section>
  </footer
  
  </body>
