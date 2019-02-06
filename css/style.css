@@ -1,0 +1,312 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  text-transform: uppercase;
+  background-color: #ffffff;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+}
+
+.button,
+.button-buy-1,
+.button-item-price {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #fb565a;
+  border: none;
+}
+
+
+.button-buy-2 {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #00ca74;
+  border: none;
+}
+
+.button-buy-3 {
+  font: inherit;
+  text-align: center;
+  color: #ffffff;
+  vertical-align: middle;
+  text-transform: uppercase;
+  background-color: #efc849;
+  border: none;
+}
+
+.button:hover,
+.button:focus,
+.button-buy-1:hover,
+.button-buy-1:focus,
+.button-item-price:hover,
+.button-item-price:focus {
+  background-color: #e74246;
+}
+
+.button:active,
+.button-buy-1:active,
+.button-item-price:active {
+  background-color: #d7373b;
+  color: #e06366;
+}
+
+.button-buy-2:hover,
+.button-buy-2:focus {
+  background-color: #00bc6c;
+}
+
+.button-buy-2:active {
+  background-color: #00aa62;
+  color: #4dc491;
+}
+
+.button-buy-3:hover,
+.button-buy-3:focus {
+  background-color: #eab534;
+}
+
+.button-buy-3:active {
+  background-color: #e5a722;
+  color: #edc265;
+}
+
+.main-navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: #000000;
+  background-color: #ffffff;
+  text-transform: uppercase;
+}
+
+.site-navigation-list,
+.basket-link {
+  list-style: none;
+}
+
+.site-navigation-list a,
+.basket-link a {
+  color: #000000;
+}
+
+.basket-link a {
+  color: #000000;
+}
+
+.site-navigation-list a:hover,
+.basket-link a:hover {
+  color: #fb565a;
+}
+
+.site-navigation-list a:focus,
+.basket-link a:focus {
+  color: #bababa;
+}
+
+.site-navigation-list a:active,
+.basket-link a:active {
+  color: #000000;
+  text-decoration: underline;
+}
+
+.advantages-list {
+  list-style: none;
+}
+
+.advantage-title {
+  text-transform: uppercase;
+}
+
+.advantage-item {
+  text-align: left;
+}
+
+.advantage-item h3 {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.advantage-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: none;
+  color: #283136;
+}
+
+.aboutus {
+  font-size: 45px;
+  line-height: 45px;
+  text-transform: none;
+}
+
+.aboutus-text,
+.development,
+.development-item,
+.accuracy,
+.accuracy-item {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.accuracy-item b {
+  font-size: 45px;
+  line-height: 10px;
+}
+
+.accuracy-list,
+.partner-logo-list,
+.social-buttons {
+  list-style: none;
+}
+
+.aboutus-text,
+.development-item,
+.accuracy-item {
+  text-transform: none;
+  color: #283136;
+}
+
+h1 {
+  font-size: 55px;
+  line-height: 55px;
+  text-transform: none;
+  color: #000000;
+}
+
+.filter-options-list,
+.catalog-list {
+  list-style: none;
+}
+
+legend {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.filter-input-label,
+.filter-input-radio {
+  font-size: 16px;
+  line-height: 20px;
+  color: #283136;
+  text-transform: none;
+}
+
+.filter-input-label:hover,
+.filter-input-label:focus,
+.filter-input-radio:hover,
+.filter-input-radio:focus {
+  color: #283136;
+}
+
+.catalog-item {
+  background-color: #eeeeee;
+  tetx-align: center;
+  width: 360px;
+  text-align: center;
+}
+
+.item-title {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.item-description {
+  text-transform: none;
+  font-size: 16px;
+  line-height: 18px;
+  color: #666666;
+}
+
+.pagination-list {
+  list-style: none;
+}
+
+.pagination-item a,
+.filter-button {
+  color: #000000;
+  background-color: #eeeeee;
+}
+.pagination-item-current a {
+  color: #000000;
+  background-color: #ffffff;
+  border: 3px solid #eeeeee;
+}
+
+.pagination-item a:hover,
+.pagination-item a:focus,
+.filter-button:hover,
+.filter-button:focus {
+  background-color: #dfdfdf;
+}
+
+.pagination-item a:active,
+.filter-button:active {
+  background-color: #d5d5d5;
+  color: #bfbfbf;
+  border-top: 2px solid #bfbfbf;
+}
+
+.main-footer {
+  background-color: #ffffff;
+  background-image: url("img/map.jpg") no repeat;
+}
+
+.footer-contacts {
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+  color: #283136;
+}
+
+.footer-contacts h3 {
+  font-size: 18px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.main-footer b {
+  font-size: 36px;
+  line-height: 36px;
+  text-transform: none;
+}
+
+.main-footer p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #283136;
+  text-transform: none;
+}
+
+.phone-number-link {
+  color: #000000;
+}
+
+.modal {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: none;
+}
+
+.modal h2 {
+  font-size: 45px;
+  line-height: 45px;
+}
