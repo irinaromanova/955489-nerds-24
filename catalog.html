@@ -4,7 +4,7 @@
 <head>
  <meta charset="utf-8">
  <title>Нёрдс</title>
- <link href="http://fonts.googleapis.com/css?family=Roboto:500&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
+ <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet" type="text/css">
  <link href="css/normalize.css" rel="stylesheet">
  <link href="css/style.css" rel="stylesheet">
 </head>
@@ -17,16 +17,16 @@
    </a>
    <ul class="site-navigation-list">
     <li class="site-navigation-item">
-     <a class="site-navigation-link" href="studio.html">Студия</a>
+     <a class="site-navigation-link--studio" href="studio.html">Студия</a>
     </li>
     <li class="site-navigation-item">
-     <a class="site-navigation-link" href="customers.html">Клиенты</a>
+     <a class="site-navigation-link--customers" href="customers.html">Клиенты</a>
     </li>
     <li class="site-navigation-item">
-     <a class="site-navigation-link" href="catalog.html">Магазин</a>
+     <a class="site-navigation-link--catalog current" href="catalog.html">Магазин</a>
     </li>
     <li class="site-navigation-item">
-     <a class="site-navigation-link" href="contacts.html">Контакты</a>
+     <a class="site-navigation-link--contacts" href="contacts.html">Контакты</a>
     </li>
    </ul>
    <a class="basket-link" href="basket.html">Корзина</a>
@@ -39,7 +39,7 @@
    <h2 class="visually-hidden">Фильтр товаров</h2>
    <form class="filter" method="post" action="https://echo.htmlacademy.ru">
     <fieldset class="filter-options">
-	   <legend>Сетка:</legend>
+	   <h3>Сетка:</h3>
 	   <ul class="filter-options-list">
 	    <li class="filter-option">
 	     <label class="filter-input-label" for="filter-adaptive">Адаптивная</label>
@@ -56,7 +56,7 @@
 	   </ul>
     </fieldset>
     <fieldset class="filter-options">
-	   <legend>Особенности:</legend>
+	   <h3>Особенности:</h3>
 	   <ul class="filter-options-list">
 	    <li class="filter-option">
 	     <label class="filter-input-label" for="filter-slider">Слайдер</label>
@@ -91,52 +91,64 @@
    <h2 class="visually-hidden">Список товаров</h2>
    <ul class="catalog-list">
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">Sedona</h3>
-	   </a>
-     <p class="item-description">Информационный сайт для туристов</p>
+     <div class="effects">
+      <a class="item-title-link" href="#">
+       <h3 class="item-title">Sedona</h3>
+	    </a>
+      <p class="item-description">Информационный сайт для туристов</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">Pink App</h3>
-	   </a>
-     <p class="item-description">Продуктовый лендинг приложения для iOS и Android</p>
+     <div class="effects">
+      <a class="item-title-link" href="#">
+       <h3 class="item-title">Pink App</h3>
+	    </a>
+      <p class="item-description">Продуктовый лендинг приложения для iOS и Android</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">Barbershop</h3>
-	   </a>
-     <p class="item-description">Сайт салона красоты. Для мужчин, да.</p>
+     <div class="effects">
+	    <a class="item-title-link" href="#">
+       <h3 class="item-title">Barbershop</h3>
+	    </a>
+      <p class="item-description">Сайт салона красоты. Для мужчин, да.</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-barbershop.jpg" width="360" height="576"alt="Barbershop">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">Mishka</h3>
-	   </a>
-     <p class="item-description">Интернет-магазин вязанных игрушек</p>
+     <div class="effects">
+	    <a class="item-title-link" href="#">
+       <h3 class="item-title">Mishka</h3>
+	    </a>
+      <p class="item-description">Интернет-магазин вязанных игрушек</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">A Plus</h3>
-	   </a>
-     <p class="item-description">Лендинг курсов повышения квалификации</p>
+     <div class="effects">
+	    <a class="item-title-link" href="#">
+       <h3 class="item-title">A Plus</h3>
+	    </a>
+      <p class="item-description">Лендинг курсов повышения квалификации</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
     <li class="catalog-item">
-	   <a class="item-title-link" href="#">
-      <h3 class="item-title">Кваст</h3>
-	   </a>
-     <p class="item-description">Промо-сайт производителя крафтового кваса</p>
+     <div class="effects">
+	    <a class="item-title-link" href="#">
+       <h3 class="item-title">Кваст</h3>
+	    </a>
+      <p class="item-description">Промо-сайт производителя крафтового кваса</p>
+      <a class="button button-item-price" href="#">9900 руб.</a>
+     </div>
      <img src="img/img-kvast.jpg" width="360" height="576"alt="Кваст">
-     <a class="button-item-price" href="#">9900 руб.</a>
     </li>
    </ul>
    <ul class="pagination-list">
@@ -157,13 +169,13 @@
  </main>
 
  <footer class="main-footer">
-  <p class="footer-contacts">
-   NЁRDS DESIGN STUDIO
+  <div class="footer-contacts">
+   <h4 class="studio-name">NЁRDS DESIGN STUDIO</h4>
    191186, Санкт-Петербург,
    ул. Б. Конюшенная, д. 19/88
    <a class="phone-number-link" href="#">тел. +7 (812) 275-75-75</a>
    <a class="button" href="wright-us.html">Напишите нам</a>
-  </p>
+  </div>
   <div class="footer-social">
    <ul class="social-buttons">
     <li class="social-button-item">
@@ -177,14 +189,14 @@
 	  </li>
    </ul>
   </div>
-  <b>Давайте дружить, это выгодно!</b>
+  <h3>Давайте дружить, это выгодно!</h3>
   <p>Скидка 10% для друзей из социальных сетей</p>
  </footer>
 
 
  <section class="modal">
   <form class="wright-us-modal" action="https://echo.htmlacademy.ru" method="post">
-   <h2>Напишите нам</h2>
+   <b>Напишите нам</b>
    <div class="wright-us-item">
     <label class="write-us-label" for="wright-us-name">Ваше имя:</label>
     <input id="wright-us-name" type="text" name="name" placeholder="Имя Фамилия">
