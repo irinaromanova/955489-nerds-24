@@ -11,22 +11,22 @@
 
 <body>
  <header class="main-header">
-  <nav class="main-navigation">
+  <nav class="main-navigation container">
    <a class="main-header-logo" href="index.html">
     <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
    </a>
    <ul class="site-navigation-list">
      <li class="site-navigation-item">
-      <a class="site-navigation-link--studio" href="studio.html">Студия</a>
+      <a class="site-navigation-link" href="studio.html">Студия</a>
      </li>
      <li class="site-navigation-item">
-      <a class="site-navigation-link--customers" href="customers.html">Клиенты</a>
+      <a class="site-navigation-link" href="customers.html">Клиенты</a>
      </li>
      <li class="site-navigation-item">
-      <a class="site-navigation-link--catalog" href="catalog.html">Магазин</a>
+      <a class="site-navigation-link" href="catalog.html">Магазин</a>
      </li>
      <li class="site-navigation-item">
-      <a class="site-navigation-link--contacts" href="contacts.html">Контакты</a>
+      <a class="site-navigation-link" href="contacts.html">Контакты</a>
      </li>
     </ul>
     <a class="basket-link" href="basket.html">Корзина</a>
@@ -35,50 +35,53 @@
  </header>
 
  <main class="container">
-  <section class="advantages">
+  <section class="advantages container">
    <h2 class="visually-hidden">Услуги</h2>
    <ul class="advantages-list">
     <li class="advantage-item">
      <img src="img/illustration-1.png" width="300" height="146" alt="Картинка с веб-сайтом">
      <h2 class="advantage-title">Веб-сайты</h2>
      <p class="advantage-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-     <a class="button button-buy-1" href="#">Заказать</a>
+     <a class="button button" href="#">Заказать</a>
     </li>
     <li class="advantage-item">
      <img src="img/illustration-2.png" width="300" height="146" alt="Картинка с приложением">
      <h2 class="advantage-title">Приложения</h2>
      <p class="advantage-text">Покорите топ-10 приложений в AppStore и Google Play</p>
-     <a class="button button-buy-2" href="#">Заказать</a>
+     <a class="button button-green" href="#">Заказать</a>
     </li>
     <li class="advantage-item">
      <img src="img/illustration-3.png" width="300" height="146" alt="Картинка с презентацией">
      <h2 class="advantage-title">Презентации</h2>
      <p class="advantage-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-     <a class="button button-buy-3" href="#">Заказать</a>
+     <a class="button button-yellow" href="#">Заказать</a>
     </li>
    </ul>
   </section>
-  <section class="studio-info">
-   <h2 class="visually-hidden">О нас</h2>
-   <b class="aboutus">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
-   <p class="aboutus-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
-   <h4 class="development">Выполняем заказы на разработку:</h4>
-   <ul class="development-list">
-    <li class="development-item">Веб-сайтов любой сложности</li>
-    <li class="development-item">Мобильных приложений для iOS и Android</li>
-    <li class="development-item">Слайдшоу и видео для корпоративных презентаций</li>
-   </ul>
+
+  <div class="studio container">
+   <section class="studio-info">
+    <h2 class="visually-hidden">О нас</h2>
+    <b class="aboutus">Мы — маленькая, но гордая дизайн-студия из Краснодара.</b>
+    <p class="aboutus-text">Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
+    <h4 class="development">Выполняем заказы на разработку:</h4>
+    <ul class="development-list">
+     <li class="development-item">Веб-сайтов любой сложности</li>
+     <li class="development-item">Мобильных приложений для iOS и Android</li>
+     <li class="development-item">Слайдшоу и видео для корпоративных презентаций</li>
+    </ul>
+   </section>
+   <section class="studio-visual">
+    <img src="img/nerds-illustration.png" width="360" height="208" alt="Иллюстрация Нёрдс">
+    <h4 class="accuracy">С 2004 года любим точность во всем:</h4>
+    <ul class="accuracy-list">
+     <li class="accuracy-item"><b>146<span>%</span></b> Уровень самоотдачи</li>
+     <li class="accuracy-item"><b>100<span>%</span></b> Соблюдение сроков</li>
+     <li class="accuracy-item"><b>50<span>%</span></b> Минимальная предоплата</li>
+    </ul>
   </section>
-  <section class="studio-visual">
-   <img src="img/nerds-illustration.png" width="360" height="208" alt="Иллюстрация Нёрдс">
-   <h4 class="accuracy">С 2004 года любим точность во всем:</h4>
-   <ul class="accuracy-list">
-    <li class="accuracy-item"><b>146<span>%</span></b> Уровень самоотдачи</li>
-    <li class="accuracy-item"><b>100<span>%</span></b> Соблюдение сроков</li>
-    <li class="accuracy-item"><b>50<span>%</span></b> Минимальная предоплата</li>
-   </ul>
-  </section>
-  <section class="partners">
+  </div>
+  <section class="partners container">
    <h2 class="visually-hidden">Наши партнеры</h2>
    <ul class="partner-logo-list">
     <li class="partner-logo-item">
@@ -105,7 +108,7 @@
   </section>
  </main>
 
- <footer class="main-footer">
+ <footer class="main-footer container">
   <div class="footer-contacts">
    <h4 class="studio-name">NЁRDS DESIGN STUDIO</h4>
    191186, Санкт-Петербург,
@@ -125,15 +128,18 @@
 	   <a class="social-button-link" href="#">Инстаграм</a>
 	  </li>
    </ul>
+   <div class="inscription">
+    <h3>Давайте дружить, это выгодно!</h3>
+    <p>Скидка 10% для друзей из социальных сетей</p>
+   </div>
   </div>
-  <h3>Давайте дружить, это выгодно!</h3>
-  <p>Скидка 10% для друзей из социальных сетей</p>
  </footer>
 
 
  <section class="modal">
   <form class="wright-us-modal" action="https://echo.htmlacademy.ru" method="post">
    <b>Напишите нам</b>
+   <button class="modal-close" type="button">Закрыть</button>
    <div class="wright-us-item">
     <label class="write-us-label" for="wright-us-name">Ваше имя:</label>
     <input id="wright-us-name" type="text" name="name" placeholder="Имя Фамилия">
@@ -147,7 +153,6 @@
     <textarea id="wright-us-letter-text" name="letter-text" placeholder="В свободной форме"></textarea>
    </div>
    <button class="button" type="submit">Отправить</button>
-   <button class="modal-close" type="button">Закрыть</button>
   </form>
  </section>
 
