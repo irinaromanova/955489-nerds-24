@@ -15,7 +15,8 @@
    <a class="main-header-logo" href="index.html">
     <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип Нёрдс">
    </a>
-   <ul class="site-navigation-list">
+   <div class="navigation-wrapper">
+    <ul class="site-navigation-list">
      <li class="site-navigation-item">
       <a class="site-navigation-link" href="studio.html">Студия</a>
      </li>
@@ -30,8 +31,38 @@
      </li>
     </ul>
     <a class="basket-link" href="basket.html">Корзина</a>
+    </div>
    </nav>
-   <!--Слайдер-->
+   <section class="slider">
+    <div class="container">
+     <h2 class="visually-hidden">Преимущества</h2>
+     <input class="visually-hidden" type="radio" id="product-1" name="toggle" checked>
+     <input class="visually-hidden" type="radio" id="product-2" name="toggle">
+     <input class="visually-hidden" type="radio" id="product-3" name="toggle">
+     <div class="slider-controls">
+      <label class="slider-controls-item slider-controls-item--1" for="product-1">Первый</label>
+      <label class="slider-controls-item slider-controls-item--2" for="product-2">Второй</label>
+      <label class="slider-controls-item slider-controls-item--3" for="product-3">Третий</label>
+     </div>
+     <ul class="slider-list">
+      <li class="slider-item">
+       <h3>Долго, дорого,<br> скрупулезно.</h3>
+       <p>Математически выверенный дизайн<br> для вашего сайта или мобильного приложения.</p>
+       <a class="slider-item-button button" href="#">Узнать больше</a>
+      </li>
+      <li class="slider-item">
+       <h3>Любим математику как никто другой</h3>
+       <p>Никакого креатива, только математические формулы для расчета идеальных пропорций.</p>
+       <a class="slider-item-button button" href="#">Узнать больше</a>
+      </li>
+      <li class="slider-item">
+       <h3>Только ночь,<br> только хардкор</h3>
+       <p>Работать днем, как все? Мы против этого.<br> Ближе к полуночи работа только начинается.</p>
+       <a class="slider-item-button button" href="#">Узнать больше</a>
+      </li>
+     </ul>
+    </div>
+   </section>
  </header>
 
  <main class="container">
@@ -42,19 +73,19 @@
      <img src="img/illustration-1.png" width="300" height="146" alt="Картинка с веб-сайтом">
      <h2 class="advantage-title">Веб-сайты</h2>
      <p class="advantage-text">Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-     <a class="button button" href="#">Заказать</a>
+     <a class="button-order button" href="#">Заказать</a>
     </li>
     <li class="advantage-item">
      <img src="img/illustration-2.png" width="300" height="146" alt="Картинка с приложением">
      <h2 class="advantage-title">Приложения</h2>
      <p class="advantage-text">Покорите топ-10 приложений в AppStore и Google Play</p>
-     <a class="button button-green" href="#">Заказать</a>
+     <a class="button-order button-green button" href="#">Заказать</a>
     </li>
     <li class="advantage-item">
      <img src="img/illustration-3.png" width="300" height="146" alt="Картинка с презентацией">
      <h2 class="advantage-title">Презентации</h2>
      <p class="advantage-text">Вы даже не подозреваете, насколько вы изумительны!</p>
-     <a class="button button-yellow" href="#">Заказать</a>
+     <a class="button-order button-yellow button" href="#">Заказать</a>
     </li>
    </ul>
   </section>
@@ -109,14 +140,16 @@
  </main>
 
  <footer class="main-footer container">
-  <div class="footer-contacts">
-   <h4 class="studio-name">NЁRDS DESIGN STUDIO</h4>
-   191186, Санкт-Петербург,
-   ул. Б. Конюшенная, д. 19/88
-   <a class="phone-number-link" href="#">тел. +7 (812) 275-75-75</a>
-   <a class="button" href="wright-us.html">Напишите нам</a>
-  </div>
-  <div class="footer-social">
+  <section class="footer-map">
+   <div class="footer-contacts">
+    <h4 class="studio-name">NЁRDS DESIGN STUDIO</h4>
+     <p class="studio-address">191186, Санкт-Петербург,
+     ул. Б. Конюшенная, д. 19/88</p>
+    <a class="phone-number-link" href="#">тел. +7 (812) 275-75-75</a>
+    <a class="button-wrightus button" href="wright-us.html">Напишите нам</a>
+   </div>
+  </section>
+  <section class="footer-social container">
    <ul class="social-buttons">
     <li class="social-button-item">
 	   <a class="social-button-link" href="#">Вконтакте</a>
@@ -132,7 +165,7 @@
     <h3>Давайте дружить, это выгодно!</h3>
     <p>Скидка 10% для друзей из социальных сетей</p>
    </div>
-  </div>
+  </section>
  </footer>
 
 
@@ -152,7 +185,7 @@
     <label class="write-us-label" for="wright-us-letter-text">Текст письма:</label>
     <textarea id="wright-us-letter-text" name="letter-text" placeholder="В свободной форме"></textarea>
    </div>
-   <button class="button" type="submit">Отправить</button>
+   <button class="button-post button" type="submit">Отправить</button>
   </form>
  </section>
 
