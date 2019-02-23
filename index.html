@@ -157,6 +157,25 @@
     <a class="phone-number-link" href="tel: +7 (812) 275-75-75">тел. +7 (812) 275-75-75</a>
     <a class="button-wrightus button" href="wright-us.html">Напишите нам</a>
    </div>
+   <form class="modal wright-us-modal" action="https://echo.htmlacademy.ru" method="post">
+    <b class="wright-us">Напишите нам</b>
+    <button class="modal-close" type="button">Закрыть</button>
+    <div class="wright-us-wrapper">
+     <div class="wright-us-item">
+      <label class="write-us-label" for="wright-us-name">Ваше имя:</label>
+      <input id="wright-us-name" type="text" name="name" placeholder="Имя Фамилия">
+     </div>
+     <div class="wright-us-item">
+      <label class="write-us-label" for="wright-us-email">Ваш e-mail:</label>
+      <input id="wright-us-email" type="email" name="email" placeholder="email@example.com">
+     </div>
+     <div class="wright-us-item">
+      <label class="write-us-label" for="wright-us-letter-text">Текст письма:</label>
+      <textarea id="wright-us-letter-text" rows="5" name="letter-text" placeholder="В свободной форме"></textarea>
+     </div>
+    </div>
+    <button class="button-post button" type="submit">Отправить</button>
+   </form>
   </section>
   <section class="footer-social container">
    <ul class="social-buttons">
@@ -178,25 +197,7 @@
  </footer>
 
 
- <section class="modal">
-  <form class="wright-us-modal" action="https://echo.htmlacademy.ru" method="post">
-   <b class="whight-us">Напишите нам</b>
-   <button class="modal-close" type="button">Закрыть</button>
-   <div class="wright-us-item">
-    <label class="write-us-label" for="wright-us-name">Ваше имя:</label>
-    <input id="wright-us-name" type="text" name="name" placeholder="Имя Фамилия">
-   </div>
-   <div class="wright-us-item">
-    <label class="write-us-label" for="wright-us-email">Ваш e-mail:</label>
-    <input id="wright-us-email" type="email" name="email" placeholder="email@example.com">
-   </div>
-   <div class="wright-us-item">
-    <label class="write-us-label" for="wright-us-letter-text">Текст письма:</label>
-    <textarea id="wright-us-letter-text" name="letter-text" placeholder="В свободной форме"></textarea>
-   </div>
-   <button class="button-post button" type="submit">Отправить</button>
-  </form>
- </section>
+
 
  </body>
 </html>
