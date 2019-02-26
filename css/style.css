@@ -679,7 +679,7 @@ input[type="radio"].visually-hidden {
   box-sizing: border-box;
   height: 415px;
 }
-
+/*
 .map-marker {
   position: absolute;
   width: 231px;
@@ -689,7 +689,7 @@ input[type="radio"].visually-hidden {
   left: 50%;
   margin-left: 90px;
   top: 90px;
-}
+}*/
 
 
 .footer-contacts {
@@ -699,6 +699,7 @@ input[type="radio"].visually-hidden {
   left: 50%;
   margin-left: -580px;
   top: 55px;
+  z-index: 100;
 }
 
 .studio-address {

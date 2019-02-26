@@ -1,10 +1,10 @@
-var link = document.querySelector(".wright-us");
+var link = document.querySelector(".button-wrightus");
 var popup = document.querySelector(".wright-us-modal");
 var close = popup.querySelector(".modal-close");
-var name = popup.querySelector("[name=name]");
-var form = popup.querySelector("form");
-var email = popup.querySelector("[name=email]");
-var letter-text = popup.querySelector("[name=letter-text]");
+var name = popup.querySelector(".wright-name");
+var form = popup.querySelector(".wright-us-modal");
+var email = popup.querySelector(".wrightemail");
+var letterText = popup.querySelector(".wright-letter");
 var isStorageSupport = true;
 var storage = "";
 
@@ -21,7 +21,7 @@ link.addEventListener("click", function (evt) {
  if (storage) {
   name.value = storage;
   email.value = storage;
-  letter-text.focus();
+  letterText.focus();
  } else {
   name.focus();
  }
