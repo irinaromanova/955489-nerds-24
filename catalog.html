@@ -55,13 +55,14 @@
          <label class="min-price">от <input name="min-price" type="text" value="0"></label>
          <label class="max-price">до <input name="max-price" type="text" value="15000"></label>
         </div>
-       </div>
-      </fieldset>
+        </div>
+       </fieldset>
+      </form>
      </section>
      <section class="filters">
       <h2 class="visually-hidden">Фильтр товаров</h2>
       <form class="filter" method="post" action="https://echo.htmlacademy.ru">
-       <fieldset class="filter-options">
+       <fieldset class="filter-options filter-options-grid">
 	      <legend class="filter-options-title">Сетка:</legend>
 	      <ul class="filter-options-list">
 	       <li class="filter-option">
@@ -78,7 +79,7 @@
 	       </li>
 	      </ul>
        </fieldset>
-       <fieldset class="filter-options">
+       <fieldset class="filter-options filter-options-properties">
 	      <legend class="filter-options-title">Особенности:</legend>
 	      <ul class="filter-options-list">
 	       <li class="filter-option">
@@ -109,16 +110,16 @@
     </div>
     <div class="main-column">
      <section class="sort-type">
-      <legend class="filter-options-title">Сортировать: </legend>
+      <h3 class="filter-options-title">Сортировать: </h3>
       <ul class="sort-type-list">
        <li class="sort-type-item">
-         <a class="sort-type-link current" href="#">По цене</a>
+        <a class="sort-type-link current" href="#">По цене</a>
        </li>
        <li class="sort-type-item">
-         <a class="sort-type-link" href="#">По типу</a>
+        <a class="sort-type-link" href="#">По типу</a>
        </li>
        <li class="sort-type-item">
-         <a class="sort-type-link" href="#">По названию</a>
+        <a class="sort-type-link" href="#">По названию</a>
        </li>
       </ul>
       <div class="arrows">
@@ -130,64 +131,64 @@
       <h2 class="visually-hidden">Список товаров</h2>
       <ul class="catalog-list">
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
          <a class="item-title-link" href="#">
           <h3 class="item-title">Sedona</h3>
 	       </a>
-         <p class="item-description">Информационный сайт для туристов</p>
+         <p class="item-description item-description-sedona">Информационный сайт для туристов</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
+        <img class="picture" src="img/img-sedona.jpg" width="360" height="576" alt="Sedona">
        </li>
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
          <a class="item-title-link" href="#">
           <h3 class="item-title">Pink App</h3>
 	       </a>
-         <p class="item-description">Продуктовый лендинг приложения для iOS и Android</p>
+         <p class="item-description item-description-pink">Продуктовый лендинг приложения для iOS и Android</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
+        <img class="picture" src="img/img-pink.jpg" width="360" height="576" alt="Pink App">
        </li>
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
 	       <a class="item-title-link" href="#">
           <h3 class="item-title">Barbershop</h3>
 	       </a>
-         <p class="item-description">Сайт салона красоты. Для мужчин, да.</p>
+         <p class="item-description item-description-barbershop">Сайт салона красоты. Для мужчин, да.</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-barbershop.jpg" width="360" height="576"alt="Barbershop">
+        <img class="picture" src="img/img-barbershop.jpg" width="360" height="576" alt="Barbershop">
        </li>
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
 	       <a class="item-title-link" href="#">
           <h3 class="item-title">Mishka</h3>
 	       </a>
-         <p class="item-description">Интернет-магазин вязанных игрушек</p>
+         <p class="item-description item-description-mishka">Интернет-магазин вязанных игрушек</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
+        <img class="picture" src="img/img-mishka.jpg" width="360" height="576" alt="Mishka">
        </li>
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
 	       <a class="item-title-link" href="#">
           <h3 class="item-title">A Plus</h3>
 	       </a>
-         <p class="item-description">Лендинг курсов повышения квалификации</p>
+         <p class="item-description item-description-aplus">Лендинг курсов повышения квалификации</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
+        <img class="picture" src="img/img-aplus.jpg" width="360" height="576" alt="A Plus">
        </li>
        <li class="catalog-item">
-        <div class="effects">
+        <div class="info">
 	       <a class="item-title-link" href="#">
           <h3 class="item-title">Кваст</h3>
 	       </a>
-         <p class="item-description">Промо-сайт производителя крафтового кваса</p>
+         <p class="item-description item-description-kvast">Промо-сайт производителя крафтового кваса</p>
          <a class="button-item-price button" href="#">9900 руб.</a>
         </div>
-        <img src="img/img-kvast.jpg" width="360" height="576"alt="Кваст">
+        <img class="picture" src="img/img-kvast.jpg" width="360" height="576" alt="Кваст">
        </li>
       </ul>
       <ul class="pagination-list">
@@ -215,7 +216,7 @@
     <h4 class="studio-name">NЁRDS DESIGN STUDIO</h4>
     <p class="studio-address">191186, Санкт-Петербург,
            ул. Б. Конюшенная, д. 19/88</p>
-    <a class="phone-number-link" href="tel: +7 (812) 275-75-75">тел. +7 (812) 275-75-75</a>
+    <a class="phone-number-link" href="#">тел. +7 (812) 275-75-75</a>
     <a class="button-wrightus button" href="wright-us.html">Напишите нам</a>
    </div>
    <form class="modal wright-us-modal" action="https://echo.htmlacademy.ru" method="post">
@@ -256,8 +257,10 @@
    </div>
   </section>
  </footer>
- <script src="js/wright-us-form.js"></script>
- <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
- <script src="js/placemark.js" type="text/javascript"></script>
+
+ <script src="js/wrightus.js"></script>
+ <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
+ <script src="js/placemark.js"></script>
+ 
  </body>
 </html>
