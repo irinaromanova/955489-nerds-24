@@ -1,10 +1,10 @@
-var link = document.querySelector(".button-wrightus");
-var popup = document.querySelector(".wright-us-modal");
+var link = document.querySelector(".button-writeus");
+var popup = document.querySelector(".write-us-modal");
 var close = popup.querySelector(".modal-close");
-var yourName = popup.querySelector(".wright-name");
+var yourName = popup.querySelector(".write-name");
 
-var email = popup.querySelector(".wright-email");
-var letterText = popup.querySelector(".wright-letter");
+var email = popup.querySelector(".write-email");
+var letterText = popup.querySelector(".write-letter");
 var isStorageSupport = true;
 var storage = "";
 
@@ -56,3 +56,26 @@ window.addEventListener("keydown", function (evt) {
    }
  }
 });
+
+ymaps.ready(init);
+
+function init(){
+
+    var myMap;
+
+    myMap = new ymaps.Map("map", {
+        center: [59.939140, 30.321418],
+        zoom: 17,
+        controls: ["smallMapDefaultSet"]
+    });
+
+
+    var myPlacemark = new ymaps.Placemark([59.938667, 30.323073] , {},
+        { iconLayout: "default#image",
+          iconImageHref: "img/map-marker.png",
+          iconImageSize: [231, 190],
+          iconImageOffset: [-55, -205] });
+
+    myMap.geoObjects.add(myPlacemark);
+
+}
