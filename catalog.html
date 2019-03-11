@@ -48,8 +48,12 @@
                   <div class="scale">
                     <div class="bar"></div>
                   </div>
-                  <button class="toggle toggle-min" type="button"></button>
-                  <button class="toggle toggle-max" type="button"></button>
+                  <button class="toggle toggle-min" type="button">
+                    <span class="visually-hidden">Минимальная цена</span>
+                  </button>
+                  <button class="toggle toggle-max" type="button">
+                    <span class="visually-hidden">Максимальная цена</span>
+                  </button>
                 </div>
                 <div class="price-controls">
                   <label class="min-price">от <input name="min-price" type="text" value="0"></label>
@@ -104,7 +108,7 @@
                 </li>
               </ul>
             </fieldset>
-            <button type="button" class="filter-button button">Показать</button>
+            <button type="submit" class="filter-button button">Показать</button>
           </form>
         </section>
       </div>
@@ -125,8 +129,12 @@
             </ul>
           </div>
           <div class="arrows">
-            <a class="arrow arrow-down arrow-current" href="#"></a>
-            <a class="arrow arrow-up" href="#"></a>
+            <a class="arrow arrow-down arrow-current" href="#">
+              <span class="visually-hidden">По убыванию</span>
+            </a>
+            <a class="arrow arrow-up" href="#">
+              <span class="visually-hidden">По возрастанию</span>
+            </a>
           </div>
         </section>
         <section class="catalog">
